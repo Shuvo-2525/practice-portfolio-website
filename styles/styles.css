@@ -1,0 +1,32 @@
+* {
+    font-family: 'Open Sans', sans-serif!important;
+}
+ 
+/* Color Section  */
+
+.primary-clr {
+    color: #FD6E0A;
+}
+
+
+
+/* Header and Navigation section*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 51px 226px;
+}
+nav h2 {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    display: flex;
+    margin-left: 50px;
+}
+

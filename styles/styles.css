@@ -14,7 +14,10 @@
 /* ------------------------------------ */
 
 .header {
-
+    background-image: url(../images/header_bg.png) , url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom , left;
+    margin-left: 23px;
 }
 nav {
     display: flex;
@@ -50,10 +53,9 @@ nav ul li {
 /* Banner section */
 
 .banner {
-    margin: 0 20px;
+    margin: 0 38px 0 230px;
     display: flex;
     align-items: center;
-    /* justify-content: space-between !important; */
 }
 .banner-title {
     font-size: 45px;

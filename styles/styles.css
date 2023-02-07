@@ -12,6 +12,10 @@
 
 /* Navigation section*/
 /* ------------------------------------ */
+
+.header {
+
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -45,7 +49,33 @@ nav ul li {
 
 /* Banner section */
 
+.banner {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between !important; */
+}
+.banner-title {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
 
+.banner-name {
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.banner-para {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner-download-contact-btn {
+    display: flex;
+    margin-top: 30px;
+}
 
 /* ------------------------------------------- */
 

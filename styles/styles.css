@@ -8,9 +8,10 @@
     color: #FD6E0A;
 }
 
+/*------------- Header & Navigation --------*/
 
-
-/* Header and Navigation section*/
+/* Navigation section*/
+/* ------------------------------------ */
 nav {
     display: flex;
     justify-content: space-between;
@@ -28,5 +29,24 @@ nav ul {
 nav ul li {
     display: flex;
     margin-left: 50px;
+    align-items: center;
 }
+
+/* btn-properties */
+.btn-primary {
+    height: 64px;
+    color: #ffffff;
+    background-color: #FD6E0A;
+    border: none;
+    font-size: 20px ;
+    border-radius: 5px;
+    padding: 18px 35px;
+}
+
+/* Banner section */
+
+
+
+/* ------------------------------------------- */
+
 

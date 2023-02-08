@@ -116,4 +116,55 @@ nav ul li {
 /* ---------------------------- */
 /* What I do - section */
 
+.section2 {
+    /* border: 1px solid black; */
+    margin: 130px;
+}
+.sec2-title {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.sec2-des {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 50px;
+    width: auto;
+}
+.sec2-card-section {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 245px;
+}
+
+
+.sec2-card-img{
+    margin-top: 30px;
+}
+.sec2-card-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.sec2-card-des {
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.sec2-card-1 , .sec2-card-2 , .sec2-card-3 ,.sec2-card-4 {
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 245px;
+    padding: 0px 30px;  
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;  
+} 
+
+
+
 

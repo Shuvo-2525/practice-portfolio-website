@@ -1,7 +1,6 @@
 * {
     font-family: 'Open Sans', sans-serif!important;
-}
- 
+} 
 /* Color Section  */
 
 .primary-clr {
@@ -17,6 +16,7 @@
     background-image: url(../images/header_bg.png) , url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: right bottom , left;
+    background-color: #FFF8F3;
     margin-left: 23px;
 }
 nav {
@@ -28,11 +28,9 @@ nav h2 {
     font-weight: 800;
     font-size: 45px;
 }
-
 nav ul {
     display: flex;
 }
-
 nav ul li {
     display: flex;
     margin-left: 50px;
@@ -62,31 +60,27 @@ nav ul li {
     font-weight: 600;
     margin-bottom: 5px;
 }
-
 .banner-name {
     font-size: 85px;
     font-weight: 700;
     margin-bottom: 20px;
-
 }
 .banner-para {
     font-size: 18px;
     font-weight: 400;
 }
-
 .banner-download-contact-btn {
     display: flex;
     margin-top: 30px;
 }
 
 /* ------------------------------------------- */
-
 /* ----------- Main section ------------- */
 
 /* About Me Section */
 
 .about-me {
-    margin: 280px 385px;
+    margin: 280px 385px 130px 385px ;
 }
 .about-me-title , .about-me-descrip {
         text-align: center;    
@@ -118,5 +112,8 @@ nav ul li {
     color: #474747;
     font-weight: 700;
 }
+
+/* ---------------------------- */
+/* What I do - section */
 
 
